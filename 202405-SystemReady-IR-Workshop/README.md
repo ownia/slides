@@ -25,7 +25,7 @@ make LLAMA_OPENBLAS=1 -j4
 - prompt measurement using llama.cpp main example
 
 ```
-sudo taskset -c 4,5,6,7 ./main -m ../qwen1_5-1_8b-chat-q5_k_m.gguf -p "Once upon a time, there existed a little girl who liked to have adventures. She wanted to go to places and meet new people, and have fun" -n 200 --color
+sudo taskset -c 4,5,6,7 ./main -m ../qwen1_5-1_8b-chat-q5_k_m.gguf -f prompts/chat-with-qwen.txt -c 2048 -n 512 --color -cml --ignore-eos
 ```
 
 - build mnn-llm
