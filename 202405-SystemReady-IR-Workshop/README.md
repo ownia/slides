@@ -5,8 +5,18 @@
 ```
 sudo apt update
 sudo apt upgrade
-sudo apt install ccache wget libopenblas-dev
+sudo apt install ccache wget libopenblas-dev device-tree-compiler swig minicom
 ```
+
+##### Demo-0
+
+```
+python3 -m venv env
+source env/bin/active
+pip3 install construct dtschema requests pyyaml chardet packaging
+```
+
+### Outdated
 
 ##### Demo-0
 
