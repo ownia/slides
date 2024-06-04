@@ -8,6 +8,23 @@ sudo apt upgrade
 sudo apt install ccache wget libopenblas-dev device-tree-compiler swig minicom
 ```
 
+### Hands-on
+
+##### Section 0
+
+SystemReady IR 2.0 on RK3588
+- master RK3588 + slave RK3588
+
+##### Section 1
+
+LLM demo
+
+##### Section 0
+
+RKNN Model Zoo YOLOv5 demo
+
+### Outdated
+
 ##### Demo-0
 
 ```
@@ -15,11 +32,6 @@ python3 -m venv env
 source env/bin/active
 pip3 install construct dtschema requests pyyaml chardet packaging
 ```
-
-### Outdated
-
-##### Demo-0
-
 
 ##### Demo-1
 
